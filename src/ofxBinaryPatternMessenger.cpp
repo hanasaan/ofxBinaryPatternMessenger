@@ -1,14 +1,14 @@
 //
-//  ofxBinaryPatternMessanger.cpp
+//  ofxBinaryPatternMessenger.cpp
 //  example-binarypattern
 //
 //  Created by Yuya Hanai on 2017/12/07.
 //
 //
 
-#include "ofxBinaryPatternMessanger.h"
+#include "ofxBinaryPatternMessenger.h"
 
-namespace ofxBinaryPatternMessanger
+namespace ofxBinaryPatternMessenger
 {
     bool encodeToImage(const unsigned char* data, size_t length, ofPixels& out, size_t offset_pix)
     {

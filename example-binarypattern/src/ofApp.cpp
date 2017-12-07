@@ -1,6 +1,6 @@
 #include "ofMain.h"
 
-#include "ofxBinaryPatternMessanger.h"
+#include "ofxBinaryPatternMessenger.h"
 
 struct ScopedTimeProfile
 {
@@ -34,15 +34,15 @@ public:
         img.allocate(1024, 512, OF_IMAGE_COLOR);
         {
             ScopedTimeProfile s("encode");
-            ofxBinaryPatternMessanger::encodeToImage((const unsigned char*)data.c_str(), data.size(), img.getPixels());
+            ofxBinaryPatternMessenger::encodeToImage((const unsigned char*)data.c_str(), data.size(), img.getPixels());
         }
         img.update();
         {
             ScopedTimeProfile s("decode");
-            auto sz = ofxBinaryPatternMessanger::fetchSizeFromImage(img.getPixels());
+            auto sz = ofxBinaryPatternMessenger::fetchSizeFromImage(img.getPixels());
             ofBuffer b;
             b.allocate(sz);
-            ofxBinaryPatternMessanger::decodeFromImage((unsigned char*)b.getData(), img.getPixels());
+            ofxBinaryPatternMessenger::decodeFromImage((unsigned char*)b.getData(), img.getPixels());
             text = b;
         }
     }
@@ -57,7 +57,7 @@ public:
         
         ofDrawBitmapStringHighlight(data, 10, 20, ofColor::red);
         ofDrawBitmapStringHighlight(text, 10, 40, ofColor::blue);
-        auto sz = ofxBinaryPatternMessanger::fetchSizeFromImage(img.getPixels());
+        auto sz = ofxBinaryPatternMessenger::fetchSizeFromImage(img.getPixels());
         ofDrawBitmapStringHighlight(ofToString(sz), 10, 60, ofColor::green);
         ofDrawBitmapStringHighlight(ofToString(data.size()), 10, 80, ofColor::green);
         

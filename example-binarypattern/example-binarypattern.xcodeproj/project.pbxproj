@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C14CC98A1FD9295500DA6ACF /* ofxBinaryPatternMessanger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C14CC9881FD9295500DA6ACF /* ofxBinaryPatternMessanger.cpp */; };
+		C14CC98A1FD9295500DA6ACF /* ofxBinaryPatternMessenger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C14CC9881FD9295500DA6ACF /* ofxBinaryPatternMessenger.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
 /* End PBXBuildFile section */
@@ -42,8 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C14CC9881FD9295500DA6ACF /* ofxBinaryPatternMessanger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxBinaryPatternMessanger.cpp; path = ../src/ofxBinaryPatternMessanger.cpp; sourceTree = "<group>"; };
-		C14CC9891FD9295500DA6ACF /* ofxBinaryPatternMessanger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxBinaryPatternMessanger.h; path = ../src/ofxBinaryPatternMessanger.h; sourceTree = "<group>"; };
+		C14CC9881FD9295500DA6ACF /* ofxBinaryPatternMessenger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxBinaryPatternMessenger.cpp; path = ../src/ofxBinaryPatternMessenger.cpp; sourceTree = "<group>"; };
+		C14CC9891FD9295500DA6ACF /* ofxBinaryPatternMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxBinaryPatternMessenger.h; path = ../src/ofxBinaryPatternMessenger.h; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E4B69B5B0A3A1756003C02F2 /* example-binarypatternDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "example-binarypatternDebug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
@@ -74,24 +74,24 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
-				C14CC9861FD9291F00DA6ACF /* ofxBinaryPatternMessanger */,
+				C14CC9861FD9291F00DA6ACF /* ofxBinaryPatternMessenger */,
 			);
 			name = addons;
 			sourceTree = "<group>";
 		};
-		C14CC9861FD9291F00DA6ACF /* ofxBinaryPatternMessanger */ = {
+		C14CC9861FD9291F00DA6ACF /* ofxBinaryPatternMessenger */ = {
 			isa = PBXGroup;
 			children = (
 				C14CC9871FD9293F00DA6ACF /* src */,
 			);
-			name = ofxBinaryPatternMessanger;
+			name = ofxBinaryPatternMessenger;
 			sourceTree = "<group>";
 		};
 		C14CC9871FD9293F00DA6ACF /* src */ = {
 			isa = PBXGroup;
 			children = (
-				C14CC9881FD9295500DA6ACF /* ofxBinaryPatternMessanger.cpp */,
-				C14CC9891FD9295500DA6ACF /* ofxBinaryPatternMessanger.h */,
+				C14CC9881FD9295500DA6ACF /* ofxBinaryPatternMessenger.cpp */,
+				C14CC9891FD9295500DA6ACF /* ofxBinaryPatternMessenger.h */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -222,7 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
-				C14CC98A1FD9295500DA6ACF /* ofxBinaryPatternMessanger.cpp in Sources */,
+				C14CC98A1FD9295500DA6ACF /* ofxBinaryPatternMessenger.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
