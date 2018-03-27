@@ -1,4 +1,4 @@
-# ofxBinaryPatternMessegner
+# ofxBinaryPatternMessenger
 Messaging via Image
 
 ## Motivation
